@@ -2,13 +2,16 @@
 using namespace std;
 
 int main() {
-  
   int x{};
+  int y{};
 
   cout << "Enter an integer: ";
   cin >> x;
-  cout << "Double " << x << " is: " << x * 2 << '\n';
-  cout << "Triple " << x << " is: " << x * 3 << '\n';
+  cout << "Enter another integer: ";
+  cin >> y;
+
+  cout << x << " + " << y << " is " << x + y << ".\n";
+  cout << x << " - " << y << " is " << x - y << ".\n";
 
   return 0;
 }
