@@ -6,5 +6,7 @@ int main() {
   std::cin >> x;
   std::cout << "You entered " << x << '\n';
   
+
+  std::cout << "Bruh";
   return 0;
 }
