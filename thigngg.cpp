@@ -4,15 +4,11 @@ using namespace std;
 int main() {
   
   int x{};
-  int y{};
 
-  x = y = 5;
+  cout << "Enter an integer: ";
+  cin >> x;
+  cout << "Double " << x << " is: " << x * 2 << '\n';
+  cout << "Triple " << x << " is: " << x * 3 << '\n';
 
-  cout << x << '\n';
-  cout << y << '\n';
-
-  y = 3;
-
-  cout << x << '\n';
-  cout << y << '\n';
+  return 0;
 }
